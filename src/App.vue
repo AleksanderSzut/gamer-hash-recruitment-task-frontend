@@ -1,7 +1,7 @@
 <template>
   <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link :to="{ name: 'FirstSection' }">First section</router-link> |
+    <router-link :to="{ name: 'SecondSection' }">Second section</router-link>
   </div>
   <router-view />
 </template>
